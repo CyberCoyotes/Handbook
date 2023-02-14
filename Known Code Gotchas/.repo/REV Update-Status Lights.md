@@ -1,0 +1,1 @@
+Issue 03: When attempting to update REV CAN devices, the update may abort, and the status light on the particular device may read Orange-Blue or Orange-Magenta(can't tell.) Try plugging directly into the device, rather than any other REV CAN device on the network.
