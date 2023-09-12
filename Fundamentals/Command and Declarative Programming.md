@@ -1,17 +1,11 @@
 # COMMAND BASED
 ##
-There are two approaches to making an FRC robot: **iterative**, and **Command-Based**, of which we use the latter.
+There are two approaches to making an FRC robot: **Iterative**, and **Command-Based**, of which we use the latter.
 <br/>
 
-# iterative
-iterative is like designing a linear list of orders for the robot to follow.
-It's hard to properly communicate the differences between the two philopsophies in a tl;dr format, but the cliff notes are that iterative is what most inexperienced people would default to. While it's easier in the very short term, the drawbacks are too large to be viable; added maintenience, dependency, and ambiguity in control flow are all reasons to avoid iterative.
-
-
-# Command Based (and declarative)
-Command based is like designing a set of rules for the robot to follow.
-A quick distinction is in order:
-"Command-Based" refers to the way robot properties and actions are broken into **subsystems** and **commands**, with a large arsenal of classes and functions to help with the subsystems and commands. "Declarative" programming is the more sustainable, effective method of programming that goes with command-based like PB+J. For this reason, they will often be grouped together as simply "Command-Based" (occasionally, "sane, functional human being code") 
+# Iterative and Command Based
+Iterative is like designing an ordered list of instructions for the robot to follow.
+Command based is like creating a seperate list of complex dance moves, then telling the robot the cirumstances in which to perform those dance moves.
 
 ##
 # A quick table, summing up the uses
